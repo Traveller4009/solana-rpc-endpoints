@@ -1,42 +1,10 @@
-[
-  {
-    "url": "https://api.mainnet-beta.solana.com",
-    "is_public": true,
-    "priority": 10,
-    "max_rate": 100,
-    "health_weight": 1.0,
-    "provider": "Solana Foundation",
-    "notes": "Primary mainnet endpoint",
-    "tags": ["foundation", "tier1"]
-  },
-  {
-    "url": "https://rpc.ankr.com/solana",
-    "is_public": true,
-    "priority": 9,
-    "max_rate": 100,
-    "health_weight": 0.95,
-    "provider": "Ankr",
-    "notes": "High performance RPC",
-    "tags": ["ankr", "tier1"]
-  },
-  {
-    "url": "https://solana-api.projectserum.com",
-    "is_public": true,
-    "priority": 8,
-    "max_rate": 100,
-    "health_weight": 0.9,
-    "provider": "Project Serum",
-    "notes": "Community RPC",
-    "tags": ["serum", "tier2"]
-  },
-  {
-    "url": "https://rpc.helius.xyz",
-    "is_public": true,
-    "priority": 7,
-    "max_rate": 100,
-    "health_weight": 0.85,
-    "provider": "Helius",
-    "notes": "High‑quality RPC",
-    "tags": ["helius", "tier2"]
-  }
-]
+{
+  "endpoints": [
+    {
+      "url": "http://127.0.0.1:9400",
+      "name": "rpc-plane",
+      "priority": 1,
+      "is_public": false
+    }
+  ]
+}
