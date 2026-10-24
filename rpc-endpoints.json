@@ -1,10 +1,12 @@
-{
-  "endpoints": [
-    {
-      "url": "http://127.0.0.1:9400",
-      "name": "rpc-plane",
-      "priority": 1,
-      "is_public": false
-    }
-  ]
-}
+[
+  {
+    "url": "http://127.0.0.1:9400",
+    "is_public": false,
+    "priority": 1,
+    "max_rate": 100000,
+    "health_weight": 1.0,
+    "provider": "RPC-Plane",
+    "notes": "Local RPC Plane proxy",
+    "tags": ["rpc-plane", "tier1"]
+  }
+]
